@@ -63,7 +63,9 @@ app.get('/', async (req, res) => {
     }
 
     // URL 解码（防止中文乱码）
-    text = decodeURIComponent(text);
+    text = decodeURIComponent(tif (text.startsWith('%')) {
+  text = decodeURIComponent(text);
+}ext);
 
     // 可选参数
     const voice = req.query.voice || 'zhixiaoxia'; // 默认女声
