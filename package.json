@@ -1,7 +1,6 @@
 {
-  "name": "esp32-aliyun-tts-proxy",
+  "name": "aliyun-tts-proxy",
   "version": "1.0.0",
-  "description": "阿里云 TTS 代理服务",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
