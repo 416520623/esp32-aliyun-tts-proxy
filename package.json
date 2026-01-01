@@ -1,0 +1,16 @@
+{
+  "name": "esp32-aliyun-tts-proxy",
+  "version": "1.0.0",
+  "description": "阿里云TTS代理，为ESP32返回WAV格式音频",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
